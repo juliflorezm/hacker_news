@@ -1,0 +1,24 @@
+{
+  "name": "hacker-news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "env-cmd ./config/.env nodemon src/index.js",
+    "dev": "env-cmd ./config/.env node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.1",
+    "express": "^4.17.1",
+    "ioredis": "^4.27.9",
+    "redis": "^3.1.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "env-cmd": "^8.0.2",
+    "nodemon": "^2.0.13"
+  }
+}
